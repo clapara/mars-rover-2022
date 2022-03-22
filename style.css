@@ -95,6 +95,23 @@ figcaption {
     padding: 5px 10px;
 }
 
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*getting ALL elements with class'img' that are direc descendants of class 'collage' */
+.collage > .img {
+    flex-basis: calc(50% - 2.5px);
+}
+
+/* getting FIRST and SECOND elements with class img that are direct descendants of class 'collage' */
+.collage > .img:nth-child(1),
+.collage > .img:nth-child(2) {
+    margin-bottom: 5px;
+}
+
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
