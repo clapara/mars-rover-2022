@@ -134,6 +134,23 @@ figcaption {
     background-color: rgba(240, 161, 175, 0.65);
 }
 
+.green {
+    background-color: rgba(0, 110, 65, 0.65);
+}
+
+.purple {
+    background-color: rgba(74, 2, 242, 0.65);
+
+}
+
+.red {
+    background-color: rgba(230, 11, 65, 0.65);
+}
+
+.blue {
+    background-color: rgba(11, 18, 230, 0.65);
+}
+
 .annotate {
     position: relative;
 }
@@ -141,6 +158,26 @@ figcaption {
 #camera:not(.active) {
     top: 20%;
     left: 31%;
+}
+
+#moxie:not(.active) {
+    bottom: 43%;
+    left: 27%;
+}
+
+#arm:not(.active) {
+    top: 53%;
+    right: 26%;
+}
+
+#wheels:not(.active) {
+    bottom: 27%;
+    left: 33%;
+}
+
+#battery:not(.active) {
+    top: 44%;
+    left: 13%;
 }
 
 .dot.active {
